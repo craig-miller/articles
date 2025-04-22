@@ -1,13 +1,13 @@
 ---
 title: "Test Blog Article"
 slug: "test-blog-article"
-published: true
+published: true 
 date: 2025-04-22
 summary: "Testing Neovim/Obsidian/Github/Framer publishing flow."
 image: "https://craig-miller.github.io/pages/attachments/profile-sailing%202.jpg"
 ---
 
-Here is a blog article written in Obsidian.
+Here is a blog article written in Obsidian v2
 - Corrected Image Link
 - Testing auto-commits - 2
 
