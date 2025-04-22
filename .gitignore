@@ -1,0 +1,52 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Obsidian workspace settings and plugin data if copied into here
+.obsidian/
+workspace.json
+
+# Ignore temp and backup files
+*.tmp
+*.bak
+*~# Vim/Neovim swap files
+*.swp
+*.swo
+*.swn
+
+# Vim/Neovim backup files
+*.bak
+*.tmp
+*~
+
+# Vim undo files (if using persistent undo)
+*.un~
+
+# MacOS metadata
+.DS_Store
+
+# Obsidian plugin data (only if you copy .obsidian here)
+.obsidian/
+workspace.json
+
+# Node/npm or script output (optional)
+node_modules/
+dist/
+build/
+output/
+
+# Allow .gitignore itself
+.*
+!.gitignore
+
+# Ignore build artifacts (in case you add scripts later)
+dist/
+build/
+output/
+
+# Ignore node_modules or dependencies if you use npm tooling
+node_modules/
+
+# Optional: Ignore hidden files by default, but allow .gitignore
+.*
+!.gitignore
+
