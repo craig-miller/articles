@@ -4,7 +4,7 @@ slug: "test-blog-article"
 published: true 
 date: 2025-04-22
 summary: "Testing Neovim/Obsidian/Github/Framer publishing flow."
-image: "https://craig-miller.github.io/pages/attachments/profile-sailing%202.jpg"
+image: "attachments/profile-sailing%202.jpg"
 ---
 
 Here is a blog article written in Obsidian v2
