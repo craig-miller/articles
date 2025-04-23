@@ -8,7 +8,7 @@ published: false
 status: "In Review"
 thumbnail: attachments/profile-sailing%202.jpg
 tags: ["Swift", "AIS", "Hardware"]
---
+---
 
 Here is a blog article written in Obsidian v2
 - Corrected Image Link
