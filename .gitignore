@@ -34,19 +34,5 @@ dist/
 build/
 output/
 
-# Allow .gitignore itself
-.*
-!.gitignore
-
-# Ignore build artifacts (in case you add scripts later)
-dist/
-build/
-output/
-
 # Ignore node_modules or dependencies if you use npm tooling
 node_modules/
-
-# Optional: Ignore hidden files by default, but allow .gitignore
-.*
-!.gitignore
-

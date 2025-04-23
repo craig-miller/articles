@@ -1,0 +1,26 @@
+name: Sync Markdown to Notion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.md'
+
+jobs:
+  sync-to-notion:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install md-to-notion
+        run: npm install -g @vrerv/md-to-notion
+
+      - name: Sync Markdown to Notion
+        run: md-to-notion -t "${{ secrets.NOTION_TOKEN }}" -p "${{ secrets.NOTION_PAGE_ID }}" .
